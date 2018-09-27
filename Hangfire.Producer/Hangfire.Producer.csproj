@@ -64,7 +64,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Filters\DisableConcurrentExecutionAttribute.cs" />
+    <Compile Include="Filters\CustomDisableConcurrentExecutionAttribute.cs" />
     <Compile Include="Filters\MutexAttribute.cs" />
     <Compile Include="Producer.cs" />
     <Compile Include="Program.cs" />
